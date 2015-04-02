@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE films SYSTEM "films.dtd">
+<root>
+	<films>
+		<film>
+			<nomFilm>Retour vers le Futur</nomFilm>
+			<synopsis><![CDATA[Hill Valley, 1985. Marty McFly, adolescent typique des années 1980, est déçu par sa situation familiale. Son père George, timide, couard, ne supportant pas le conflit, s'écrase sans cesse devant son chef Biff Tannen, qui l'oblige à rédiger ses propres rapports. Sa mère Lorraine boit beaucoup ; très possessive, elle s'indigne que son fils sorte avec Jennifer et lui fait souvent des remontrances. Son frère et sa sœur sont bien mal partis aussi. Marty a pour ami un extravagant scientifique, le Docteur Emmett Brown, dit « Doc ». Ce dernier a mis au point une machine à voyager dans le temps au terme de trente ans de recherche, machine prenant la forme d'une DeLorean DMC-12 modifiée (Parce que "quitte a voyager dans le temps, autant que ça ait de la gueule"). Il lui fait une démonstration de son invention en envoyant son chien « Einstein » une minute en avant dans le temps, sous l'œil de Marty.]]></synopsis>
+			<duree>6204</duree>
+			<genresFilm>
+				<genreFilm ref="genre-1"/>
+				<genreFilm ref="genre-3"/>
+			</genresFilm>
+			<motsCles>
+				<motCle>Voyage temporel</motCle>
+				<motCle>DeLorean</motCle>
+				<motCle>HoverBoard</motCle>
+			</motsCles>
+			<languesFilm>
+				<langueFilm lang="fr" />
+				<langueFilm lang="en" />
+				<langueFilm lang="de" />
+			</languesFilm>
+			<image src="lien_vers_image_future.jpg" />
+
+			<roles>
+				<role place="1" acteur="acteur-123123">
+					<nomRole>Doc</nomRole>
+				</role>
+				<role place="2" acteur="acteur-432432">
+					<nomRole>Marty</nomRole>
+				</role>
+			</roles>
+
+			<projections>
+				<projection>
+					<date>2014-02-01</date>
+					<salleProjection ref="salle-1" />
+				</projection>
+				<projection>
+					<date>2014-02-04</date>
+					<salleProjection ref="salle-2" />
+				</projection>
+			</projections>
+
+			<critiques>
+				<critique note="4">Bien joué!</critique>
+				<critique note="5">Belle histoire.</critique>
+			</critiques>
+		</film>
+		<film>
+			<nomFilm>Sin City : J'ai tué pour elle</nomFilm>
+			<synopsis><![CDATA[À Basin City, surnommé Sin City (la ville du vice), Marv surprend un groupe d'étudiants en train d'asperger d'essence un homme ivre affalé sur le trottoir. Ils s'enfuient, mais Marv les rattrape et les tue.]]></synopsis>
+			<duree>6120</duree>
+			<genresFilm>
+				<genreFilm ref="genre-2"/>
+			</genresFilm>
+			<motsCles>
+				<motCle>Arme</motCle>
+				<motCle>Meurtre</motCle>
+			</motsCles>
+			<languesFilm>
+				<langueFilm lang="fr" />
+				<langueFilm lang="en" />
+				<langueFilm lang="de" />
+			</languesFilm>
+			<image src="lien_vers_image_sin.jpg" />
+
+			<roles>
+				<role place="1" acteur="acteur-123123">
+					<nomRole>Kroenig</nomRole>
+				</role>
+				<role place="2" acteur="acteur-987">
+					<nomRole>Nancy Callahan</nomRole>
+				</role>
+			</roles>
+
+			<projections>
+				<projection>
+					<date>2015-10-02</date>
+					<salleProjection ref="salle-1" />
+				</projection>
+				<projection>
+					<date>2015-11-03</date>
+					<salleProjection ref="salle-2" />
+				</projection>
+				<projection>
+					<date>2015-11-04</date>
+					<salleProjection ref="salle-2" />
+				</projection>
+			</projections>
+
+			<critiques>
+				<critique note="3">Trop glauque.</critique>
+				<critique note="5">Belle image.</critique>
+				<critique note="5">Incroyable!</critique>
+			</critiques>
+		</film>
+	</films>
+
+	<acteurs>
+		<acteur id="acteur-123123">
+			<nomActeur>Christopher Allen Lloyd</nomActeur>
+			<nomNaissance>Christopher Allen Lloyd</nomNaissance>
+			<biographie><![CDATA[Lloyd was born in Stamford, Connecticut, on October 22, 1938, the son of Samuel R. Lloyd, a lawyer, and his wife Ruth (née Lapham), a singer and sister of San Francisco mayor Roger Lapham. He is the youngest of four girls and three boys, one of whom, Samuel Lloyd, was an actor in the 1950s and 1960s. Lloyd's maternal grandfather, Lewis Lapham, was one of the founders of the Texaco oil company, and Lloyd is also a descendant of Mayflower passengers, including John Howland. Lloyd was raised in New Canaan, Connecticut.]]></biographie>
+			<sexe>Male</sexe>
+			<dateNaissance>1938-10-22</dateNaissance>
+		</acteur>
+		<acteur id="acteur-432432">
+			<nomActeur>Michael J. Fox</nomActeur>
+			<nomNaissance>Michael J. Fox</nomNaissance>
+			<biographie><![CDATA[Michael Andrew Fox was born on June 9, 1961, in Edmonton, Alberta, Canada, to Phyllis (Piper), an actress/payroll clerk, and William Fox, a police officer and Canadian Forces member. Fox's family lived in various cities and towns across Canada because of his father's career. The family finally moved to the Vancouver suburb of Burnaby, British Columbia, when his father retired in 1971. His father died on January 6, 1990, from a heart attack. Fox attended Burnaby Central Secondary School, and now has a theatre named for him in Burnaby South Secondary.]]></biographie>
+			<sexe>Male</sexe>
+			<dateNaissance>1961-06-09</dateNaissance>
+		</acteur>
+		<acteur id="acteur-987">
+			<nomActeur>Jessica Alba</nomActeur>
+			<nomNaissance>Jessica Alba</nomNaissance>
+			<biographie><![CDATA[Alba was born in Pomona, California, to Catherine (née Jensen) and Mark David Alba. Her mother has Danish, Welsh, German, English, and French Canadian ancestry, while her paternal grandparents, who were born in California, were both the children of Mexican immigrants. She has a younger brother, Joshua. Her father's Air Force career took the family to Biloxi, Mississippi and Del Rio, Texas, before settling back in Claremont, California, when she was nine years old. Alba described her family as being a "very conservative family – a traditional, Catholic, Latin American family" and herself as very liberal; she says she had identified herself as a "feminist" as early as age five.]]></biographie>
+			<sexe>Female</sexe>
+			<dateNaissance>1981-04-28</dateNaissance>
+		</acteur>
+	</acteurs>
+
+	<genres>
+		<genre id="genre-1">Action</genre>
+		<genre id="genre-2">Policier</genre>
+		<genre id="genre-3">Science-Fiction</genre>
+	</genres>
+
+	<langues>
+		<langue lang="fr">Français</langue>
+		<langue lang="en">Anglais</langue>
+		<langue lang="de">Allemand</langue>
+	</langues>
+
+	<salles>
+		<salle id="salle-1">
+			<no>4</no>
+			<taille>120</taille>
+		</salle>
+		<salle id="salle-2">
+			<no>1</no>
+			<taille>100</taille>
+		</salle>
+		<salle id="salle-3">
+			<no>4</no>
+			<taille>100</taille>
+		</salle>
+	</salles>
+</root>

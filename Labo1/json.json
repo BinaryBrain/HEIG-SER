@@ -1,0 +1,44 @@
+{
+  "projections": [
+    {
+      "nom": "Retour vers le Futur",
+      "date": "2014-02-01",
+      "roles": [
+        "Christopher Allen Lloyd",
+        "Michael J. Fox"
+      ]
+    },
+    {
+      "nom": "Retour vers le Futur",
+      "date": "2014-02-04",
+      "roles": [
+        "Christopher Allen Lloyd",
+        "Michael J. Fox"
+      ]
+    },
+    {
+      "nom": "Sin City : J'ai tué pour elle",
+      "date": "2015-10-02",
+      "roles": [
+        "Christopher Allen Lloyd",
+        "Jessica Alba"
+      ],
+    },
+    {
+      "nom": "Sin City : J'ai tué pour elle",
+      "date": "2015-11-03",
+      "roles": [
+        "Christopher Allen Lloyd",
+        "Jessica Alba"
+      ],
+    },
+    {
+      "nom": "Sin City : J'ai tué pour elle",
+      "date": "2015-11-04",
+      "roles": [
+        "Christopher Allen Lloyd",
+        "Jessica Alba"
+      ],
+    }
+  ]
+}

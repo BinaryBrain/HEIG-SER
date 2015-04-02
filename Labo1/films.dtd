@@ -1,0 +1,60 @@
+<!ELEMENT root (films, acteurs, genres, langues, salles)>
+<!ELEMENT films (film+)>
+<!ELEMENT film (nomFilm, synopsis, duree, genresFilm, motsCles, languesFilm, image, roles?, projections?, critiques?)>
+<!ELEMENT nomFilm (#PCDATA)>
+<!ELEMENT duree (#PCDATA)>
+<!ELEMENT synopsis (#PCDATA)>
+<!ELEMENT motCle (#PCDATA)>
+
+<!ELEMENT genresFilm (genreFilm*)>
+<!ELEMENT genreFilm EMPTY>
+<!ATTLIST genreFilm ref IDREF #REQUIRED>
+
+<!ELEMENT critiques (critique+)>
+<!ELEMENT critique (#PCDATA)>
+<!ATTLIST critique note CDATA #REQUIRED>
+
+<!ELEMENT languesFilm (langueFilm*)>
+<!ELEMENT langueFilm EMPTY>
+<!ATTLIST langueFilm lang IDREF #REQUIRED>
+
+<!ELEMENT motsCles (motCle*)>
+
+<!ELEMENT roles (role*)>
+<!ELEMENT role (nomRole)>
+<!ATTLIST role place CDATA #IMPLIED>
+<!ATTLIST role acteur IDREF #REQUIRED>
+<!ELEMENT nomRole (#PCDATA)>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image src CDATA #REQUIRED>
+
+<!ELEMENT projections (projection*)>
+<!ELEMENT projection (date, salleProjection)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT salleProjection EMPTY>
+<!ATTLIST salleProjection ref IDREF #REQUIRED>
+
+<!ELEMENT acteurs (acteur+)>
+<!ELEMENT acteur (nomActeur, nomNaissance, biographie, sexe, dateNaissance, dateMort?)>
+<!ATTLIST acteur id ID #REQUIRED>
+<!ELEMENT nomActeur (#PCDATA)>
+<!ELEMENT nomNaissance (#PCDATA)>
+<!ELEMENT biographie (#PCDATA)>
+<!ELEMENT sexe (#PCDATA)>
+<!ELEMENT dateNaissance (#PCDATA)>
+<!ELEMENT dateMort (#PCDATA)>
+
+<!ELEMENT genres (genre+)>
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre id ID #REQUIRED>
+
+<!ELEMENT langues (langue+)>
+<!ELEMENT langue (#PCDATA)>
+<!ATTLIST langue lang ID #REQUIRED>
+
+<!ELEMENT salles (salle+)>
+<!ELEMENT salle (no, taille)>
+<!ELEMENT no (#PCDATA)>
+<!ELEMENT taille (#PCDATA)>
+<!ATTLIST salle id ID #REQUIRED>
